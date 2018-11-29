@@ -62,7 +62,7 @@ class App extends Component {
   }
 
   handleKeydown = (e) => {
-    let code = e.keyCode;  
+    let code = e.keyCode || e.target.children[1].id;  
     let audio = document.getElementById(code);
     if (!audio) return;
     audio.currentTime = 0;
