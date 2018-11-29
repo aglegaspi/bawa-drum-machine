@@ -74,7 +74,14 @@ class App extends Component {
     
     // ******************
     const buttons = [];
-    // INSERT CODE HERE
+    for (let i =0; i < 16; i++) {
+      buttons.push(
+        <Button 
+        
+        />
+      )
+    }
+
 
     // ****************** 
 
